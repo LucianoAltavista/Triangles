@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triángles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./CSS/responsive.css">
+</head>
+<body>
+    
+    <!--Navbar-->
+    <nav class="navbar">
+
+        <div class="navbar-center">
+
+            <img src=img/logo.png alt="logo" class="navbar-logo" width="130"/>
+
+            <div class ="box">
+            <ul class="navbar-links">
+                <li><a href="#about" class="navbar-link">Nosotros</a></li>
+                <li><a href="#dates" class="navbar-link">Próximas fechas</a></li>
+                <li><a href="#media" class="navbar-link">Escuchanos!</a></li>
+                <li><a href="#contact" class="navbar-link">Contacto</a></li>
+            </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <header>
+        <div class="presentation-banner">
+            <h1><span>Triángles</span></h1>
+            <p>Haciendo prevalecer los sonidos con los que crecimos
+            </p>
+    
+        </div>
+    </header>
+<!--END Header-->
+<!-- About -->
+ <section id="about" class="about-section">
+    <div class="section-center about-center">
+        <article class="about-img">
+            <img src="img/foto triangles.jpeg" alt="Foto Triángles"/>
+        </article>
+
+        <article class="about-info">
+            <h2 class="section-title">Sobre Nosotros</h2>
+            <p>‘Triángles’ es una banda de rock independiente conformada por Benjamin Sardini, Luciano Altavista y Agustín Rodríguez.  
+                Habiéndose cruzado en la facultad, en la carrera de Ingeniería de Sonido y conectados por referentes en la música de nuestro país dentro del rock y el pop; 
+                Benjamin y Luciano decidieron formar este proyecto con la premisa de hacer prevalecer en nuestros tiempos los sonidos con los que crecieron en sus vidas. 
+                Tras un año de ensayos y construcción del proyecto, en Mayo de 2023 lanzan su primer EP “Triángles”.</p>
+
+            <p> En agosto de ese mismo año, se suma al proyecto Agustín Rodríguez como baterista y publican el single 'Sin Control' el 20 de Diciembre.
+                En Marzo de 2024 lanzan 'Paisaje Triangular' como su mas reciente cancion y, a dia de hoy, se encuentran preparando su primer disco.
+            </p>
+        </article>
+    </div>
+    </section>
+<!--END About -->
+<!-- Dates -->
+ <section id="dates" class="dates-section">
+    <div class="section-center dates-center">
+        <article class="about-img">
+            <img src="img/foto show.jpeg" alt="Foto show"/>
+        </article>
+        <article class="dates-info">
+            <h2 class="section-title">Próximas fechas</h2>
+            <div class="dates-grid">
+                <div class="date-item">
+                    <h3>19 de Septiembre</h3>
+                    <p>Festival Frescura, en Club Cultural Matienzo</p>
+                    <a href="https://www.passline.com/eventos/frescura-162" target=”_blank” class="link">Conseguí tus entradas!</a> 
+                </div>
+            </div>
+        </article>
+    </div>
+    </section>
+<!--END Dates -->
+<!--Media-->
+ <section id="media" class="media-section">
+    <div class="section-center media-center">
+        <article class="about-img">
+            <img src="img/foto show 2.jpeg" alt="Foto show 2"/>
+        </article>
+        <article class="media-info">
+            <h2 class="section-title">Escuchanos!</h2>
+            <div class="media-grid">
+                <div class="media-links">
+                    <a href="https://open.spotify.com/intl-es/artist/6o6YSy8gJUvzLNFr9uMHOr?si=gH4VnSTPRx-5zVM6pQR8SQ" target=”_blank” class="link">Spotify</a> 
+                </div>
+                <div class="media-links">
+                    <a href="https://www.youtube.com/@trianglesbanda" target=”_blank” class="link">Youtube</a> 
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+<!--END Media-->
+
+ <!--Form-->
+ <section id="contact" class="container-contact">
+    <div class="section-center media-center">
+        <article class="about-img">
+            <img src="img/DSC_0050.jpg" alt="Foto estudio"/>
+        </article>
+    <h3 class="conact-title"> Unite a nuestra comunidad! </h3>
+
+    <form class="form-container">
+        <div class="form">
+            <label for="nombre" class="form-items">Nombre</label>
+            <input type="text" id="nombre" name="nombre" class="input" required>
+            <br><br>
+            <label for="apellido" class="form-items">Apellido</label>
+            <input type="text" id="apellido" name="apellido" class="input" required>
+            <br><br>
+            <label for="mail" class="form-items">Mail</label>
+            <input type="email" id="mail" name="mail" class="input" required placeholder="email@ejemplo.com">
+            <br><br>
+            <label for="telefono" class="form-items">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" class="input" required placeholder="(xx) xxxx-xxxx">
+            <br><br>
+            <label for="mensaje" class="form-items">Comentarios</label>
+            <textarea cols="10" rows="15" id="mensaje" name="mensaje"></textarea>
+            <br><br>
+            <div class="send-button">
+                <input type="submit" value="Enviar" class="send">
+            </div>
+        </div>
+    </form>
+
+</section>
+<!--END Form-->
+
+
+<!--Footer-->
+<footer>
+    <p>Todos los derechos reservados © 2024 Triángles</p>
+    <div class="social-media">
+        <a href="https://www.instagram.com/trianglesbanda/" target="_blank" class="link"><img src="img/icon.png" alt="Instagram" class="social-icon">Instagram</a>
+        <a href="https://www.tiktok.com/@trianglesbanda" target="_blank" class="link"><img src="img/tik tok.webp" alt="TikTok" class="social-icon">TikTok</a>
+    </div>
+</footer>
+ <!--END Footer-->   
+
+</body>
+</html>

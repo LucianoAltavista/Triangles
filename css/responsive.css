@@ -1,0 +1,100 @@
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .navbar-links li {
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    section h2,
+    section h3 {
+        font-size: 1.1em;
+        text-align: center;
+    }
+
+    section p {
+        font-size: 0.9em;
+        text-align: left;
+    }
+
+    section img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .media-grid {
+        flex-direction: column;
+    }
+
+    .social-media {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icon {
+        width: 30px;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .input, textarea {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .enviar {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-links li {
+        padding: 5px 0;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    section h2,
+    section h3 {
+        text-align: center;
+    }
+
+    section img {
+        max-width: 90%; /* Increase image size for smaller screens */
+    }
+
+    .media-grid {
+        flex-direction: column; /* Stack media links on small screens */
+        align-items: center;
+    }
+
+    .social-media {
+        flex-direction: column; /* Stack social media icons */
+    }
+
+    .form-container {
+        width: 90%; /* Make form container wider on smaller screens */
+    }
+}

@@ -1,0 +1,196 @@
+html {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth scroll;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #faf9f8;
+}   
+
+header {
+    background-color: #faf9f8;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+
+.navbar-links {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    color: #333;
+    transition: transform 0.3s ease;
+    font-weight: bold;   
+    cursor: pointer;
+    border-radius: 5px;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+    overflow: hidden;
+    
+    li {
+        padding: 10px;
+    }
+    
+    li:hover {
+        transform: scale(1.2);
+        transition-duration: 0.3s;
+    }
+    
+    li a {
+        color: #333;
+        text-decoration: none;
+ 
+    }
+}
+
+.link {
+    color: #000000;
+    transition: color 0.3s ease;
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+    &:hover {
+        color: #e95045;
+    }
+    
+}
+
+section {
+    padding: 20px; 
+}
+
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+section a {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+section p {
+    text-align: right;
+    line-height: 1.5;
+}
+
+section img {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 40px; 
+}
+
+
+.media-grid {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.media-links {
+    color: #000000;
+    transition: color 0.3s ease;
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+    &:hover {
+        color: #e95045;
+    }
+
+}
+
+.social-icon {
+    width: 40px; 
+    height: auto; 
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+    
+    &:hover {
+        transform: scale(1.2);
+        transition-duration: 0.3s;
+    }
+    
+    
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+
+}
+.container-contact {
+    padding: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Asegura que los campos ocupen el ancho completo */
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario */
+}
+
+.form {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    gap: 15px; /* Espacio entre los campos */
+}
+
+.input, .textarea {
+    width: 100%; /* Asegura que los campos ocupen todo el ancho */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde ligero */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.send-button {
+    display: flex;
+    justify-content: center; /* Centra el botón de enviar */
+    margin-top: 10px; /* Espacio arriba del botón */
+}
+
+.send {
+    padding: 10px 20px; /* Espaciado del botón */
+    background-color: #e95045; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+.send:hover {
+    background-color: #d8413d; /* Color al pasar el mouse */
+}
+
+footer {
+    background-color: #e2d4cc;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
